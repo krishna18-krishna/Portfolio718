@@ -246,11 +246,11 @@ h5{
 
 .spaces2{
     position: absolute;
-    top: 4000px;
+    top: 3400px;
     left: 5px;
 }
 
-.cont{
+.contact-container{
     font-size: 50px;
     position: absolute;
     top: 3550px;
@@ -365,12 +365,13 @@ h2{
     border-radius: 50px;
 }
  .bar2{
-    width: 0px;
+    width: 100px;
     height: 40px;
     background-color: rgb(5, 204, 239);
-    top: 44px;
+    position: absolute;
+    top: 3100px;
+    left: 320px;
     border-radius: 50px;
-
 } 
 .barback3{
     width: 300px;
