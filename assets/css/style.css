@@ -1,0 +1,494 @@
+*{
+    overflow-x: hidden;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    background-color: rgb(36, 30, 30);
+    color: white;
+}
+
+
+.back{
+
+    position: fixed;
+    height: 70px;
+    width: 1500px;
+    top: -16px;
+    left: 0px;
+    background-color: rgb(36, 30, 30);
+    z-index: 1;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+nav {
+    color: rgb(248, 244, 244);
+    position:fixed;
+    top: 20px;
+    right: 50px;
+   word-spacing:80px;
+   /* background-color: black; */
+   padding: 20px;
+   border-radius: 50px;
+   z-index: 2;
+
+
+}
+
+
+nav a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+img{
+    border-radius:500px;
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    
+}
+
+nav a:hover{
+    /* background-color: #ffff; */
+   /*  padding: 10px; */
+   /*  border-radius: 50px; */
+    text-decoration: underline;
+    /* color: black; */
+}
+
+
+.skills{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: bold;
+    color: rgb(5, 204, 239);
+    font-size: 30px;
+}
+h1{
+    position: absolute;
+    top:200px;
+    left: 200px;
+}
+h2{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+h3{
+    position: absolute;
+    top: 240px;
+    left: 260px;
+    font-size: 70px;
+}
+h4{
+    position: absolute;
+    top: 320px;
+    left: 270px;
+    font-size: 80px;
+}
+h5{
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    font-size: 30px;
+}
+.hire{
+    position: absolute;
+    top: 600px;
+    left: 700px;
+    font-size: 30px;
+    background-color: red;
+    padding: 10px;
+    padding-top: 7px;
+    padding-left: 30px;
+    height: 37px;
+    width: 130px;
+    border-radius: 30px;
+}
+.hire:hover{
+    background-color: orange;
+    color: red;
+
+}
+
+.line1{
+    width:500px;
+    height: 2px;
+    background-color:  white ;
+    position: relative;
+    top: 52PX;
+    left: 0px;
+    position: fixed;
+    z-index: 2;
+}
+.about{
+    position: absolute;
+    top: 750px;
+    left: 750px;
+    font-size: 100px;
+}
+.img{
+    position: absolute;
+    top: 950px;
+    left: 120px;
+}
+.me{
+    position: absolute;
+    top: 1100px;
+    left: 640px;
+    font-weight: lighter; 
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.education{
+    position: absolute;
+    top: 1730px;
+    left: 40px;
+    font-size: 100px;
+}
+
+.space{
+    position: absolute;
+    top: 790PX;
+    left: 5PX;
+}
+.educ{
+    position: absolute;
+    top: 1850px;
+    right: 100px;
+}
+.spaces{
+    position: absolute;
+    top: 1650px;
+    left: 5PX; 
+}
+.school{
+    position: absolute;
+    top: 2000px;
+    left: 40px;
+    font-size: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.sname{
+    position: absolute;
+    top: 2040px;
+    left: 40px; 
+    font-size: 35px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter; 
+}
+
+.acadamy{
+    position: absolute;
+    top: 2150px;
+    left: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.place{
+    position: absolute;
+    top: 2190px;
+    left: 40px;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    
+}
+.space1{
+    position: absolute;
+    top:2525PX;
+    left: 5PX;
+}
+
+.skill{
+   font-size: 100px;
+   position: absolute;
+   top: 2600px;
+   left: 540px;
+}
+ .skill1{
+    position: absolute;
+    top:2900px;
+    left: 150px;
+} 
+ .skill2{
+    position: absolute;
+    top: 3000px;
+    left: 160px;
+}
+.skill3{
+    position: absolute;
+    top: 3100px;
+    left: 100px;
+}
+.skill4{
+    position: absolute;
+    top: 2900px;
+    right: 600px;
+}
+.skill5{
+    position: absolute;
+    top: 3000px;
+    right: 550px;
+}
+.skill6{
+    position: absolute;
+    top: 3100px;
+    right: 480px;
+} 
+
+
+.spaces2{
+    position: absolute;
+    top: 4000px;
+    left: 5px;
+}
+
+.cont{
+    font-size: 50px;
+    position: absolute;
+    top: 3550px;
+    left: 190px;
+}
+
+.email_img{
+    position: absolute;
+    top: 3725px;
+    left: 310px;
+    height: 55px;
+    width: 65px;
+}
+.email_id{
+    font-size: 35px;
+    position: absolute;
+    top: 3697px;
+    left: 440px;
+}
+
+.linkedin_img{
+    position: absolute;
+    top: 3833px;
+    left: 310px;
+    height: 55px;
+    width: 55px;
+}
+.linkedin_id{
+    font-size: 35px;
+    position: absolute;
+    top: 3805px;
+    left: 440px;
+}
+
+.location_img{
+    position: absolute;
+    top: 3940px;
+    left: 320px;
+    height: 55px;
+    width: 75px;
+}
+.location{
+    font-size: 35px;
+    position: absolute;
+    top: 3910px;
+    left: 440px;
+}
+
+
+
+.spaces3{
+    position: absolute;
+    top: 4160px;
+    left: 5px;
+    height: 100px;
+    width: 100px;    
+}
+
+
+h2{
+    position: relative;
+    top: -23px;
+}
+
+
+.barback{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(9, 245, 237);
+    position: absolute;
+    top: 2900px;
+    left: 320px;
+    border-radius: 50px;
+}
+.bar{
+    width: 225px;
+    height: 40px;
+    background-color: rgb(5, 204, 239);
+    position: absolute;
+    top: 2900px;
+    left: 320px; 
+    border-radius: 50px; 
+
+}
+
+.barback1{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(9, 245, 237);
+    position: absolute;
+    top: 3000px;
+    left: 320px;
+    border-radius: 50px;
+}
+.bar1{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(5, 204, 239);
+    position: absolute;
+    top: 3000px;
+    left: 320px;
+    border-radius: 50px;
+
+}
+.barback2{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(9, 245, 237);
+    position: absolute;
+    top: 3100px;
+    left: 320px;
+    border-radius: 50px;
+}
+ .bar2{
+    width: 0px;
+    height: 40px;
+    background-color: rgb(5, 204, 239);
+    top: 44px;
+    border-radius: 50px;
+
+} 
+.barback3{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(9, 245, 237);
+    position: absolute;
+    top: 2910px;
+    right: 150px; 
+    border-radius: 50px;
+}
+.bar3{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(5, 204, 239);
+    position: absolute;
+    top: 2910px;
+    right: 300px; 
+    border-radius: 50px;
+}
+
+.barback4{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(9, 245, 237);
+    position: absolute;
+    top: 3010px;
+    right: 150px;
+    border-radius: 50px;
+}
+.bar4{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(5, 204, 239);
+    position: absolute;
+    top: 3010px;
+    right: 300px;
+    border-radius: 50px;
+}
+.barback5{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(9, 245, 237);
+    position: absolute;
+    top: 3110px;
+    right: 150px;
+    border-radius: 50px;
+}
+.bar5{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(5, 204, 239);
+    position: absolute;
+    top: 3110px;
+    right: 200px;
+    border-radius: 50px;
+}
+.touch{
+    position: absolute;
+    top:4120px;
+    font-size: 50px;
+}
+.name{
+    position:absolute;
+    top: 4300px;
+    height: 50px;
+    width: 600px;
+    left: 400px;
+}
+.email{
+    position:absolute;
+    top: 4450px;
+    height: 50px;
+    width: 600px;
+    left: 400px;
+}
+.message{
+    position:absolute;
+    top: 4600px;
+    height: 70px;
+    width: 600px;
+    left: 400px;
+}
+footer form .submit{
+    position: absolute;
+    top: 4700px;
+    left: 650px;
+    height: 40px;
+    width: 100px; 
+    border: 10px;  
+}
+footer form .clear{
+    position: absolute;
+    top: 4700px;
+    left: 850px;
+    height: 40px;
+    width: 100px; 
+    border: 10px;  
+}
+
+.spaces4{
+    position: absolute;
+    top: 4750px;
+    left: 5px;
+    height: 100px;
+    width: 100px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
