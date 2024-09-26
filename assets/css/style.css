@@ -29,7 +29,7 @@ nav {
     position:fixed;
     top: 20px;
     right: 50px;
-   word-spacing:80px;
+   word-spacing:60px;
    /* background-color: black; */
    padding: 20px;
    border-radius: 50px;
@@ -46,7 +46,7 @@ nav a{
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
 
-img{
+.home-container img{
     border-radius:500px;
     position: absolute;
     top: 150px;
@@ -134,8 +134,9 @@ h5{
 }
 .img{
     position: absolute;
-    top: 950px;
-    left: 120px;
+    top: 850px;
+    left: 80px;
+    border-radius: 500px;
 }
 .me{
     position: absolute;
@@ -246,20 +247,20 @@ h5{
 
 .spaces2{
     position: absolute;
-    top: 3400px;
+    top: 4100px;
     left: 5px;
 }
 
 .contact-container{
     font-size: 50px;
     position: absolute;
-    top: 3550px;
+    top: 4250px;
     left: 190px;
 }
 
 .email_img{
     position: absolute;
-    top: 3725px;
+    top: 4425px;
     left: 310px;
     height: 55px;
     width: 65px;
@@ -267,13 +268,13 @@ h5{
 .email_id{
     font-size: 35px;
     position: absolute;
-    top: 3697px;
+    top: 4400px;
     left: 440px;
 }
 
 .linkedin_img{
     position: absolute;
-    top: 3833px;
+    top: 4528px;
     left: 310px;
     height: 55px;
     width: 55px;
@@ -281,13 +282,13 @@ h5{
 .linkedin_id{
     font-size: 35px;
     position: absolute;
-    top: 3805px;
+    top: 4500px;
     left: 440px;
 }
 
 .location_img{
     position: absolute;
-    top: 3940px;
+    top: 4630px;
     left: 320px;
     height: 55px;
     width: 75px;
@@ -295,7 +296,7 @@ h5{
 .location{
     font-size: 35px;
     position: absolute;
-    top: 3910px;
+    top: 4600px;
     left: 440px;
 }
 
@@ -430,56 +431,124 @@ h2{
 }
 .touch{
     position: absolute;
-    top:4120px;
+    top:4800px;
     font-size: 50px;
 }
 .name{
     position:absolute;
-    top: 4300px;
-    height: 50px;
+    top: 4950px;
+    height: 10px;
     width: 600px;
     left: 400px;
+    padding: 20px;
+    border-radius: 10px;
 }
 .email{
     position:absolute;
-    top: 4450px;
-    height: 50px;
+    top: 5050px;
+    height: 10px;
     width: 600px;
     left: 400px;
+    padding: 20px;
+    border-radius: 10px;
 }
 .message{
     position:absolute;
-    top: 4600px;
+    top: 5150px;
     height: 70px;
-    width: 600px;
+    width: 620px;
     left: 400px;
+    padding: 10px;
+    border-radius: 10px;
 }
 footer form .submit{
     position: absolute;
-    top: 4700px;
+    top: 5300px;
     left: 650px;
     height: 40px;
     width: 100px; 
-    border: 10px;  
+    border: 10px; 
+    border-radius: 10px; 
+    background-color: brown;
+
 }
 footer form .clear{
     position: absolute;
-    top: 4700px;
+    top: 5300px;
     left: 850px;
     height: 40px;
     width: 100px; 
-    border: 10px;  
+    border: 10px;
+    border-radius: 10px;  
+    background-color: brown;
 }
-
 .spaces4{
     position: absolute;
-    top: 4750px;
+    top: 5400px;
     left: 5px;
     height: 100px;
     width: 100px;   
 }
-
-
+.spaces5{
+    position: absolute;
+    top: 3300px;
+    left: 5px;
+    height: 100px;
+    width: 100px;   
+}
+.project-container .image1{
+    position: absolute;
+    top: 3600px;
+    left: 200px;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px; 
+    border: 2px solid white;
+}
+.project-container .image2{
+    position: absolute;
+    top: 3600px;
+    left: 600px;
+    height: 400px;
+    width: 300px; 
+    border-radius: 10px;
+    padding: 10px; 
+    border: 2px solid white;
+}
+.project-container .image3{
+    position: absolute;
+    top: 3600px;
+    left: 1000px;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px; 
+    border: 2px solid white; 
+}
+.project-container .image1:hover{
+    border: 2px solid yellow;
+    transition: transform 0.3s ease;
+}
+.project-container .image2:hover{
+    border: 2px solid yellow;
+    transition: transform 0.3s ease;
+}
+.project-container .image3:hover{
+    border: 2px solid yellow;
+    transition: transform 0.3s ease;
+}
+.project-container h2{
+    position: absolute;
+    top: 3400px;
+    font-size: 50px;
+}
+.project-container{
+    transition: all ease-in-out 0.5s;
+}
+.images{
+    
+}
 
 
 
